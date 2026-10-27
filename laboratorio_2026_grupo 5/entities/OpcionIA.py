@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-class OpcionIA:
+class OpcionIA(ABC):
      def __init__(self, codigo: int, nombre: str, puntajes: dict):
         self.__codigo = codigo
         self.__nombre = nombre

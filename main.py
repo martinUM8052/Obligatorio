@@ -1,3 +1,9 @@
+import casoUso from casoUso
+import Criterio from Criterio
+import Evaluacion from Evaluacion
+import OpcionIA from OpcionIA
+import Sistema from Sistema
+
 def leer_opcion():
     return input("Seleccione una opción: ").strip()
 
@@ -39,6 +45,7 @@ def menu_registrar():
         match leer_opcion():
             case "1":
                 print("Registrar criterio")
+
             case "2":
                 print("Registrar opción de IA")
             case "3":
@@ -84,8 +91,10 @@ def menu_listar():
         match leer_opcion():
             case "1":
                 print("Listar criterios")
+            
             case "2":
                 print("Listar opciones")
+
             case "3":
                 print("Listar casos de uso")
             case "4":

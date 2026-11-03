@@ -14,7 +14,7 @@ class ServicioAPI(OpcionIA):
 
     def costo_estimado(self) -> float:
         return
-class Plan_Mensual(OpcionIA):
+class PlanMensual(OpcionIA):
     def __init__(usuarios:int, costo_por_usuario:float):
         self.__costo_por_mil = costo_por_mil
         self.__consultas_estimadas = consultas_estimadas

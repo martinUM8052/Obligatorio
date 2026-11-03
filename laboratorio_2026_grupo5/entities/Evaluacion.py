@@ -1,5 +1,5 @@
 class Evaluacion:
-    def __init__(self,codigo:int,opcion:OpcionIA, caso:casoUso , fecha:datetime, estado:str):
+    def __init__(self,codigo:int,opcion:OpcionIA, caso:CasoUso , fecha:datetime, estado:str):
         self.__codigo = codigo
         self.__opcion = opcion
         self.__caso = caso

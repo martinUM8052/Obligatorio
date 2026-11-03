@@ -1,4 +1,4 @@
-import casoUso from casoUso
+import CasoUso from CasoUso
 import Criterio from Criterio
 import Evaluacion from Evaluacion
 import OpcionIA from OpcionIA
